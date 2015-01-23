@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title> Hello </title>
+    <style>
+    body {
+        background-color: lightblue;
+    }
+    h1 {
+        color: maroon;
+    }
+    font-size {
+        font: 12px;
+    }
+    #box2 {
+        background-color: navy;
+        width: 100px;
+        height: 100px;
+    }
+    </style>
+</head>
+
+<body>
+    <h1>Good Morning</h1>
+    <div id="box2"></div>
+
+
+    <script>
+    var name = "Andrew";
+    console.log(name);
+
+    document.getElementById("box2").style.background = "maroon";
+
+    var response=prompt("What is your first name?");
+    myFunction(response);
+
+    
+    function myFunction(){
+    	alert ("Hello " + response);
+    }
+    
+    </script>
+</body>
+
+</html>
