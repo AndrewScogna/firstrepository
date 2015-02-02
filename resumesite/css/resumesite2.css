@@ -1,0 +1,54 @@
+html {
+	font-family: Courier;
+	font-size: 80%;
+}
+img {
+	displpay: block;
+	height:500px
+	widht: 100%;
+	margin: auto;
+}
+
+.nav{
+ padding: 10px;
+ background-color: transparent;
+}
+
+nav a{
+	font-size: 80%;
+	color: white;
+	text-decoration; none;
+	margin-right: 16px;
+
+}
+span{
+	color: lightgray;
+}
+p{
+	color: lightgray;
+}
+
+/*progress[value]::-webkit-progress-bar {
+  background-color: #eee;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}*/
+
+.headerBackground{
+	background: url("http://www.saharadeserttour.com/images/slider-2.jpg.pagespeed.ce.rS33gAkdsc.jpg");
+	height: 500px;
+}
+
+.center-block{
+	color: #fff;
+	position: center;
+}
+
+
+
+
+
+
+
+
+
